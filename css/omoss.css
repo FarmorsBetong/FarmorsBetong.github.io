@@ -1,0 +1,111 @@
+/* bakgrunden */
+body {
+  background: url(../bilder/eight_horns.png)
+}
+/* bakgrunden end */
+
+/* Meny */
+ul > li > a {
+  -webkit-transition: color 1s ease-in-out;
+-moz-transition:  color 1s ease-in-out;
+-o-transition: color 1s ease-in-out;
+transition: color 1s ease-in-out;
+font-family: 'Oswald', sans-serif;
+}
+
+.Logo {
+  font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+}
+
+.costum-meny {
+  opacity: 0.7;
+  -webkit-box-shadow: 0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+-moz-box-shadow:    0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+box-shadow:         0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+}
+
+/* Meny end */
+
+/* Info diven */
+.bakgrundsbild-info {
+  background: url(../bilder/stardust.png);
+  opacity: 0.5;
+  height: 600px;
+  width: 80%;
+  border-radius: 3px;
+}
+
+.info-div {
+  background:transparent;
+  width: 80%;
+  height: 400px;
+  position: relative;
+  top: -590px;
+}
+
+.info-div > p {
+float: right;
+color: #FFF;
+}
+
+.info-div p > a > img {
+float: left;
+display: inline-block;
+margin: 0 7px 0 0;
+}
+/* Info diven end */
+
+/* Footers */
+.costum-line {
+  background-color: #ADADAD;
+}
+
+.costum-facebook-logo {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.costum-facebook-logo:hover {
+  opacity: 0.8;
+}
+
+.footerover h2, a {
+  color: #FFF;
+}
+
+.costum-scroll-up {
+  font-size: 20px;
+}
+
+.footerover a:hover {
+  color: #FFF;
+}
+
+.footerbakgrund {
+background-color: #1C1C1C;
+height: 300px;
+}
+
+.footerover {
+  height: 150px;
+}
+
+.footerunder {
+  height: 150px;
+}
+.footerunder > a {
+  float: right;
+  margin: 20px 0 0 0;
+}
+
+.footerunder > p > a{
+  color: grey;
+}
+
+.footerunder > p {
+  color: #FFF;
+}
+
+/* costum footer ended */

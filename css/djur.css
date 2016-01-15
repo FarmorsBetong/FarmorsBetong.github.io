@@ -30,8 +30,24 @@ box-shadow:         0px 12px 21px 0px rgba(50, 50, 50, 0.71);
 
 /* Flipper css */
 
-h1 {
-font-family: 'Oswald', sans-serif;
+.costum-back-div > h1 {
+font-family: arial, sans-serif;
+text-align: center;
+margin: 20px 0 0 0;
+}
+
+.costum-back-div > h3 {
+font-family: sans-serif;
+margin: 10px 50px 0 50px;
+}
+
+.button-div {
+  height: 50px;
+  width: 100%;
+  margin: 175px 0 0 73.5%;
+}
+
+.btn-costum {
 }
 
 * entire container, keeps perspective */
@@ -45,13 +61,13 @@ font-family: 'Oswald', sans-serif;
 	}
 
 .flip-container, .front, .back {
-	width: 800px;
-	height: 400px;
+	width: 600px;
+	height: 350px;
 }
 
 img {
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 350px;
   border-radius: 1%;
 }
 
@@ -85,9 +101,8 @@ img {
 }
 
 .costum-back-div {
+  margin: 0 0 0 -30px;
   border-radius: 1%;
-  position: absolute;
-  left: -30px;
   -webkit-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
@@ -118,40 +133,18 @@ box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
   	height: 350px;
     border-radius: 1%;
   }
+}
 
+@media (max-width: 1600px){
+  .footerover {
+    padding: 0 0 0 150px;
+  }
+  .footerunder {
+    padding: 0 0 0 150px;
+  }
 }
 
 /* media width end */
-
-/* Form test */
-
-.test-form {
-  height: 600px;
-  width: 1000px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
-}
-
-.textarea {
-  width: 500px;
-  height: 200px;
-}
-
-.namn {
-  width: 500px;
-  height: 100px;
-}
-
-.email {
-  position: relative;
-  top: -100px;
-  height: 400px;
-  float: right;
-}
-
-/* form end */
 
 
 /* Footers */
@@ -195,7 +188,7 @@ height: 300px;
 }
 .footerunder > a {
   float: right;
-  margin: 20px 0 0 0;
+  padding: 20px 150px 0 0;
 }
 
 .footerunder > p > a{

@@ -1,0 +1,5 @@
+Finns många olika storlekar på bilderna i images mappen.
+
+Sidan ser just nu bra ut på min dator hemma.
+
+Jag la till lite coola animationer med animate.css samt wow.js för delay

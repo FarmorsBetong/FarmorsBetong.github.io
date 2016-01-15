@@ -64,7 +64,7 @@ height: 300px;
 }
 .footerunder > a {
   float: right;
-  margin: 20px 0 0 0;
+  padding: 20px 150px 0 0;
 }
 
 .footerunder > p > a{
@@ -82,3 +82,14 @@ h1 {
 font-family: 'Oswald', sans-serif;
 }
 /* Carousel Text end */
+
+/* media width */
+@media (max-width: 1600px){
+  .footerover {
+    padding: 0 0 0 150px;
+  }
+  .footerunder {
+    padding: 0 0 0 150px;
+  }
+}
+/* media width end */

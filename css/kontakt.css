@@ -1,0 +1,120 @@
+/* bakgrunden */
+body {
+  background-image: url(../bilder/eight_horns.png);
+  background-repeat: repeat;
+}
+/* bakgrunden end */
+
+/* Meny */
+ul > li > a {
+  -webkit-transition: color 0.3s ease-in-out;
+-moz-transition:  color 0.3s ease-in-out;
+-o-transition: color 0.3s ease-in-out;
+transition: color 0.3s ease-in-out;
+font-family: 'Oswald', sans-serif;
+}
+
+.Logo {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+}
+
+.costum-meny {
+  opacity: 0.7;
+  -webkit-box-shadow: 0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+-moz-box-shadow:    0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+box-shadow:         0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+}
+
+/* Meny end */
+
+@media (max-width: 1600px){
+  .footerover {
+    padding: 0 0 0 150px;
+  }
+  .footerunder {
+    padding: 0 0 0 150px;
+  }
+}
+
+/* Form test */
+
+.test-form {
+  height: 600px;
+  width: 70%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
+}
+
+
+.costum-textarea {
+  width: 64vw;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.costum-margin {
+  margin: 40px 20px 30px 20px;
+}
+/* form end */
+
+/* Footers */
+.costum-line {
+  background-color: #ADADAD;
+}
+
+.costum-facebook-logo {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.costum-facebook-logo:hover {
+  opacity: 0.8;
+}
+
+.footerover h2, a {
+  color: #FFF;
+}
+
+.costum-scroll-up {
+  font-size: 20px;
+}
+
+.footerover a:hover {
+  color: #FFF;
+}
+
+.footerbakgrund {
+background-color: #1C1C1C;
+height: 300px;
+}
+
+.footerover {
+  height: 150px;
+}
+
+.footerunder {
+  height: 150px;
+}
+.footerunder > a {
+  float: right;
+  padding: 20px 150px 0 0;
+}
+
+.footerunder > p > a{
+  color: grey;
+}
+
+.footerunder > p {
+  color: #FFF;
+}
+
+/* costum footer ended */
+
+/* Utryms div */
+.fix {
+  height: 100px;
+}

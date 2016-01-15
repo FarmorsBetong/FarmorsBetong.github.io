@@ -1,0 +1,156 @@
+/* bakgrunden */
+body {
+  background: url(../bilder/eight_horns.png)
+}
+/* bakgrunden end */
+
+/* Meny */
+ul > li > a {
+  -webkit-transition: color 1s ease-in-out;
+-moz-transition:  color 1s ease-in-out;
+-o-transition: color 1s ease-in-out;
+transition: color 1s ease-in-out;
+font-family: 'Oswald', sans-serif;
+}
+
+.Logo {
+  font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+}
+
+.costum-meny {
+  opacity: 0.7;
+  -webkit-box-shadow: 0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+-moz-box-shadow:    0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+box-shadow:         0px 12px 21px 0px rgba(50, 50, 50, 0.71);
+}
+
+/* Meny end */
+
+/* Flipper css */
+
+.width-flipper-container {
+  height: 550px;
+}
+
+.farmor {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.66);
+-moz-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.66);
+box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.66);
+}
+
+.bilder-farmor {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 25px 0 0 25px;
+  border: solid 2px #676A6B;
+}
+
+
+.move-farmor {
+  opacity: 0;
+  float: left;
+  margin: 70px 0 0 0;
+}
+
+/* slut på flipper css */
+
+/* fade container */
+.info-div {
+  opacity: 0;
+  height: 400px;
+  width: 600px;
+  float: right;
+  border-radius: 10px;
+  margin: -470px 100px 0 0;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.66);
+-moz-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.66);
+box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, 0.66);
+}
+
+.info-div > p {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+
+/* fade container end */
+
+/* Footers */
+.costum-line {
+  background-color: #ADADAD;
+}
+
+.costum-facebook-logo {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.costum-facebook-logo:hover {
+  opacity: 0.8;
+}
+
+.footerover h2, a {
+  color: #FFF;
+}
+
+.costum-scroll-up {
+  font-size: 20px;
+}
+
+.footerover a:hover {
+  color: #FFF;
+}
+
+.footerbakgrund {
+background-color: #1C1C1C;
+height: 300px;
+}
+
+.footerover {
+  height: 150px;
+}
+
+.footerunder {
+  height: 150px;
+}
+.footerunder > a {
+  float: right;
+  padding: 20px 0 0 0;
+}
+
+.footerunder > p > a{
+  color: grey;
+}
+
+.footerunder > p {
+  color: #FFF;
+}
+
+/* costum footer ended */
+
+/* media width */
+@media (max-width: 1600px){
+  .footerover {
+    padding: 0 0 0 150px;
+  }
+  .footerunder {
+    padding: 0 0 0 150px;
+  }
+  .footerunder > a {
+    float: right;
+    padding: 20px 150px 0 0;
+  }
+
+}
+/*media width end */
+
+/* Utryms div */
+.fix {
+  height: 34px;
+}
